@@ -1,0 +1,36 @@
+{
+  "name": "bflogin",
+  "productName": "BeanFun!傳統登入氣",
+  "productShortName": "BeanFun! Login",
+  "version": "1.0.0",
+  "description": "A cross-platform BeanFun! login app.",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron app",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vongola12324/BFLogin.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Vongola",
+    "email": "me@vongola.tw"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "electron-auto-updater": "^0.5.1",
+    "electron-json-storage": "^2.0.3",
+    "electron-native-notification": "^1.1.1",
+    "electron-squirrel-startup": "^1.0.0",
+    "form-urlencoded": "^1.5.0",
+    "is-online": "^5.1.2",
+    "node-fetch": "^1.6.3",
+    "npmlog": "^4.0.1",
+    "universal-analytics": "^0.4.6"
+  },
+  "devDependencies": {
+    "npmlog": "^4.0.1"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "scripts": {
+    "start": "electron app",
+    "test": "test",
+    "pack": "build --dir",
+    "dist": "build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vongola12324/BFLogin.git"
+  },
+  "build": {
+    "appId": "tw.vongola.bflogin",
+    "mac": {
+      "category": "public.app-category.utilities"
+    },
+    "nsis": {
+      "license": "LICENSE",
+      "language": "1028"
+    },
+    "win": {
+      "legalTrademarks": "Vongola",
+      "target": [
+        "nsis"
+      ]
+    },
+    "linux": {
+      "target": [
+        "tar.xz"
+      ]
+    }
+  },
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "electron": "^1.4.7",
+    "electron-builder": "^8.6.0",
+    "express": "^4.14.0",
+    "multer": "^1.2.0",
+    "npmlog": "^4.0.1",
+    "spectron": "^3.4.0"
+  },
+  "directories": {
+    "app": "app"
+  }
+}
